@@ -1,0 +1,78 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    color: #FFF;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #FCF552; 
+    font-family: "JetBrains Mono";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
+body{
+    background: linear-gradient(to bottom, #294A4F 0%, #B7BABC 100%); 
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    border-radius: 20px;
+background: #FCF552;
+    border: none;
+    color: #000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: #294A4F;
+font-family: Kanit;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+button:hover {
+    background-color: #f5c500;
+}
+
+.navbar {
+    position: absolute;
+    top: 15px;
+    right: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    margin-left: 10px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}

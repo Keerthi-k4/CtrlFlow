@@ -1,0 +1,85 @@
+/* Login.css */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #FFF;
+    font-family: "JetBrains Mono", monospace;
+}
+
+.login-form {
+    background-color: #1e1e1e; /* Slightly lighter background for the form */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-form h2 {
+    font-family: "JetBrains Mono", monospace;
+
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #FCF552; /* Matching the color theme */
+}
+
+.login-form input {
+    width: calc(100% - 20px); /* Full width with padding consideration */
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+}
+
+.login-form input::placeholder {
+    color: #888; /* Placeholder color */
+}
+
+.login-form button {
+    padding: 10px 20px;
+    background-color: #FCF552; /* Button color to match theme */
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #282c34;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: #f4c542; /* Slightly darker button on hover */
+}
+
+.header {
+    position: absolute;
+    top: 20px; /* Adjust as needed */
+    left: 20px; /* Adjust as needed */
+    color: #FCF552;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #FFF;
+    font-family: "JetBrains Mono";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    margin: 0;
+    cursor: pointer; /* Makes it clear that it's clickable */
+}
+
+.success {
+    color: green;
+    margin-top: 10px;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}

@@ -1,0 +1,50 @@
+/* src/pages/Profile.css */
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #282c34;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-header {
+    color: #FFF;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FCF552;
+    font-family: "JetBrains Mono";
+    font-size: 64px; /* Larger font size for profile header */
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.details-container {
+    font-family: 'Roboto Mono', monospace; /* Ensures font consistency */
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+    max-width: 80%; /* Adjust as needed */
+    margin: 0 auto;
+}
+
+.details-line {
+    margin-bottom: 20px; /* Space between lines */
+}
+
+.details-line p {
+    margin: 0; /* Remove default margin */
+}
+
+.details-line p strong {
+    color: #FCF552; /* Highlight labels */
+}
